@@ -1,0 +1,73 @@
+.bohemian-footer {
+    background-color: #f5f0e6; /* Color crudo/beige */
+    padding: 2rem 1rem;
+    font-family: 'Courier New', serif;
+    border-top: 2px solid #d4a373; /* Color tierra */
+    color: #5e503f; /* Color marrón oscuro */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #6b4b3e;
+    font-style: italic;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-link {
+    color: #6b4b3e;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+    position: relative;
+    display: inline-block;
+    padding: 0.3rem 0;
+  }
+  
+  .footer-link:hover {
+    color: #d4a373;
+  }
+  
+  .footer-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #d4a373;
+    transition: width 0.3s;
+  }
+  
+  .footer-link:hover::after {
+    width: 100%;
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
+  /* Responsive */
+  @media (min-width: 768px) {
+    .footer-links {
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
