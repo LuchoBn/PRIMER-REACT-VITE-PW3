@@ -6,7 +6,7 @@ function Lista() {
         <h1>TechNova Solutions (Tecnologia):</h1>
         <ul>
           <Item nome="Microsoft Office" categoria="Software" preco="R$200" avaliacao="4.5/5" disponibilidade="Em estoque" anoLancamento='2022' />
-          <Item nome="Dell XPS 13" categoria="Hardware" preco="R$5000" avaliacao="4.8/5" disponibilidade="Poucas unidades" anoLancamento='2022' />
+          <Item nome="Dell XPsS 13" categoria="Hardware" preco="R$5000" avaliacao="4.8/5" disponibilidade="Poucas unidades" anoLancamento='2022' />
           <Item nome="Serviço de Cloud AWS" categoria="Serviço" preco="R$100" avaliacao="4.2/5" disponibilidade="Disponível" anoLancamento='2022'/>
           <Item nome="Teclado Logitech MX Keys" categoria="Acessórios" preco="R$500" avaliacao="4.0/5" disponibilidade="Em estoque" anoLancamento='2022'/>
           <Item nome="Consultoria em TI" categoria="Consultoria" preco="R$3000" avaliacao="4.7/5" disponibilidade="Disponível" anoLancamento='2022'/>
